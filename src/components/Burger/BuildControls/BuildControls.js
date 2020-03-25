@@ -2,7 +2,6 @@ import React from 'react';
 
 import './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
-import {resolvePreset} from '@babel/core';
 
 const controls = [
     {
