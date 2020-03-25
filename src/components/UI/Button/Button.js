@@ -6,7 +6,7 @@ const button = (props) => {
     const buttonType = props.btnType === 'Danger' ? 'Danger' : 'Success';
     console.log(buttonType);
     return (
-        <button 
+        <button
             className={['Button', buttonType].join(' ')}
             onClick={props.clicked}>{props.children}</button>
     );
