@@ -4,7 +4,6 @@ import './Button.css'
 
 const button = (props) => {
     const buttonType = props.btnType === 'Danger' ? 'Danger' : 'Success';
-    console.log(buttonType);
     return (
         <button
             className={['Button', buttonType].join(' ')}
